@@ -1,0 +1,16 @@
+#this code to estimate the entry number even or odd
+#enter the number as num
+num=7
+#then run if ...else and run code
+if num>1:
+#attention the prime is bigger than 1
+      for i in range(2,num):
+         if (num % i)== 0:
+         print (num,"num is not a prime")
+         print (i,"time",num//i,"is",num)
+         break
+     else:
+         print (num,"is a prime number")
+         #if the number is less than or equal 1 then it is not prime 
+else:
+     print (num,"is not a prime number") 
